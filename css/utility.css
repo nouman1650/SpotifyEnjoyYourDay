@@ -1,0 +1,66 @@
+.border{
+    border: 1px solid red;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-grey{
+    background-color: #121212;
+}
+.m-1{
+    margin: 5px;
+}
+.rounded{
+    border-radius: 7px;
+}
+.p-1{
+    padding: 10px;
+}
+.size{
+    font-size: 13px;
+    width: 77px;
+    margin-left: 10px;
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+    height: 8px; /* Height of the scrollbar for horizontal scrollbars */
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+    background: #2c2c2c; /* Dark background for the track */
+    border-radius: 10px; /* Rounded edges */
+}
+
+/* Scrollbar Thumb */
+::-webkit-scrollbar-thumb {
+    background: #555; /* Dark gray scrollbar thumb */
+    border-radius: 10px; /* Rounded edges */
+}
+
+/* Scrollbar Thumb Hover Effect */
+::-webkit-scrollbar-thumb:hover {
+    background: #777; 
+}
+
+/* Scrollbar Corner for Resizable Areas */
+::-webkit-scrollbar-corner {
+    background: #2c2c2c; /* Matches the track background */
+}
+

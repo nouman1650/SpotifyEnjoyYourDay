@@ -1,0 +1,99 @@
+@media (max-width: 1250px) {
+    .left{
+        background-color: black;
+        position:absolute;
+        left: -100%;
+        transition: all 0.3s;
+        z-index: 1;
+        width: 320px;
+        height: 96vh;
+        padding: 0;
+        margin-top: 13px;
+    }
+
+    .library{
+        height: 40vh;
+        padding: 0px;
+    }
+    .songlists ul li{
+        width: 26vw;
+    }
+    .right{
+            width: 120vw;
+    }
+
+    .hamburger{
+        display: block;
+    }
+    .close{
+        display: block;
+        top: 0px;
+    }
+    .playbar{
+        width: 98%;
+    }
+}
+
+@media (max-width : 818px) {
+    .playbar{
+        width: 95%;
+    }
+    .songDetail{
+        width: 90vw;
+        flex-direction: column;
+    }
+}
+@media (max-width : 850px) {
+    .cardcontainer{
+        justify-content: center;
+    }
+}
+@media (max-width : 665px) {
+    .songDetail{
+        width: 90vw;
+        flex-direction: column;
+    }
+   
+    .left{
+        height: 95vh;
+    }
+    .songlists{
+        max-height: 40vh;
+    }
+    .cardcontainer{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 515px) {
+    .songDetail{
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+    .cardcontainer{
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 415px) {
+   .cardcontainer{
+    justify-content: center;
+    flex-wrap: wrap;
+   }
+   .card{
+    width: 120px;
+    gap: 0px;
+   }
+}
+
+@media (max-width: 380px) {
+    .cardcontainer{
+     justify-content: center;
+     flex-wrap: wrap;
+    }
+    .card{
+     width: 170px;
+     gap: 0px;
+    }
+ }
